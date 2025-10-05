@@ -13,4 +13,4 @@ Then I should be taken to the Overview page
 
 Examples:
 | username | password |
-| tautester| password |
+| EJS| 1234 |

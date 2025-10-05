@@ -8,5 +8,5 @@ Feature: Login Functionality with simple data driven
 Scenario: Login successful with simple data driven
 
 Given I am in the login page of the Para Bank Application
-When I entered "tautester" and "password"
+When I entered "EJS" and "1234"
 Then I should be taken to the Overview page

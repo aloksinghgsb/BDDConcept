@@ -9,5 +9,5 @@ Scenario: Login successful with data table
 
 Given I am in the login page of the Para Bank Application
 When I entered valid credentials using dataTable
-	|tautester|password|
+	|EJS|1234|
 Then I should be taken to the Overview page

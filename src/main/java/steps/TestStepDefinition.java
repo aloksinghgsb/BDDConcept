@@ -26,8 +26,8 @@ public class TestStepDefinition {
 
 	@When("I entered valid credentials")
 	public void i_entered_valid_credentials() {
-		driver.findElement(By.name("username")).sendKeys("tautester");
-		driver.findElement(By.name("password")).sendKeys("password");
+		driver.findElement(By.name("username")).sendKeys("EJS");
+		driver.findElement(By.name("password")).sendKeys("1234");
 		driver.findElement(By.name("username")).submit();
 	}
 	
