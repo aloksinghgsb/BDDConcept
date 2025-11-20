@@ -8,9 +8,7 @@ import io.cucumber.java.Before;
 import util.DriverSetup;
 
 public class HooksSteps {
-	
-	
-	
+
 	@Before
 	public void setupBrowser() {
 		DriverSetup.intializeWebDriver();
@@ -19,6 +17,6 @@ public class HooksSteps {
 	@After
 	public void setupBrowserTearDown() {
 		DriverSetup.setupBrowserTearDown();
-		}
-	
+	}
+
 }

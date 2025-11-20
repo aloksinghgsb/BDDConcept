@@ -5,14 +5,10 @@ Feature: Login Functionality
 		I want to login successfully
 		
  
-Scenario: Login successful
+ Scenario: Login successful
 
 Given I am in the login page of the Para Bank Application
 When I entered valid credentials
 Then I should be taken to the Overview page
 
-Scenario: Login successful
 
-Given I am in the login page of the Para Bank Application
-When I entered valid credentials
-Then I should be taken to the Overview page
